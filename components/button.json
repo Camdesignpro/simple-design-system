@@ -1,0 +1,23 @@
+{
+  "component": {
+    "button": {
+      "default": {
+        "background": "{color.action.primary}",
+        "text": "{color.text.on-action}",
+        "padding-x": "24px",
+        "padding-y": "16px",
+        "radius": "12px"
+      },
+
+      "hover": {
+        "background": "{color.action.primary-hover}",
+        "text": "{color.text.on-action}"
+      },
+
+      "disabled": {
+        "background": "{color.action.disabled}",
+        "text": "{color.text.disabled}"
+      }
+    }
+  }
+}
