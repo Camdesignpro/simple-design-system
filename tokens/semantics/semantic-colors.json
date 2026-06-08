@@ -19,18 +19,23 @@
       "disabled": {
         "$type": "color",
         "$value": "{color.neutral.300}"
+      },
+
+      "focus": {
+        "$type": "color",
+        "$value": "{color.primary.600}"
       }
     },
 
     "text": {
       "primary": {
         "$type": "color",
-        "$value": "{color.neutral.800}"
+        "$value": "{color.primary.600}"
       },
 
       "secondary": {
         "$type": "color",
-        "$value": "{color.neutral.600}"
+        "$value": "{color.neutral.700}"
       },
 
       "muted": {
@@ -48,31 +53,63 @@
         "$value": "{color.neutral.400}"
       },
 
-      "on-primary": {
+      "brand": {
         "$type": "color",
-        "$value": "{color.neutral.0}"
+        "$value": "{color.primary.700}"
       },
 
-      "accent": {
+      "on-action": {
         "$type": "color",
-        "$value": "{color.tertiary.500}"
+        "$value": "{color.neutral.0}"
       }
     },
 
     "feedback": {
-      "info": {
-        "$type": "color",
-        "$value": "{color.info.700}"
-      },
-
       "success": {
         "$type": "color",
         "$value": "{color.success.700}"
       },
 
+      "info": {
+        "$type": "color",
+        "$value": "{color.info.700}"
+      },
+
       "warning": {
         "$type": "color",
-        "$value": "{color.warning.500}"
+        "$value": "{color.warning.700}"
+      },
+
+      "error": {
+        "$type": "color",
+        "$value": "{color.error.500}"
+      }
+    },
+
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.300}"
+      },
+
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.neutral.200}"
+      },
+
+      "strong": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      },
+
+      "brand": {
+        "$type": "color",
+        "$value": "{color.primary.700}"
+      },
+
+      "focus": {
+        "$type": "color",
+        "$value": "{color.primary.500}"
       },
 
       "error": {
@@ -92,31 +129,14 @@
         "$value": "{color.primary.500}"
       },
 
-      "primary-subtle": {
+      "primary-light": {
         "$type": "color",
         "$value": "{color.primary.50}"
-      }
-    },
-
-    "border": {
-      "default": {
-        "$type": "color",
-        "$value": "{color.neutral.300}"
       },
 
-      "strong": {
+      "secondary-light": {
         "$type": "color",
-        "$value": "{color.neutral.500}"
-      },
-
-      "focus": {
-        "$type": "color",
-        "$value": "{color.primary.500}"
-      },
-
-      "error": {
-        "$type": "color",
-        "$value": "{color.error.500}"
+        "$value": "{color.secondary.50}"
       }
     }
   }
