@@ -43,6 +43,11 @@
         "$value": "{color.neutral.300}"
       },
 
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+
       "on-primary": {
         "$type": "color",
         "$value": "{color.neutral.0}"
