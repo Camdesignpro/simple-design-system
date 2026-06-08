@@ -1,15 +1,29 @@
 # Button
 
-## Preview
+## Properties
 
-![Primary Button](../assets/button-primary.png)
+- Padding : `16px 24px`
+- Radius : `12px`
 
-## Tokens
+---
 
-Background : color.action.primary
+## Default
 
-Text : color.text.on-primary
+![Default](../assets/button-primary.png)
 
-Padding : 16px 24px
+- Background : `color.action.primary`
+- Text : `color.text.on-primary`
 
-Radius : 12px
+## Hover
+
+![Hover](../assets/button-primary-hover.png)
+
+- Background : `color.action.primary-hover`
+- Text : `color.text.on-primary`
+
+## Disabled
+
+![Disabled](../assets/button-primary-disabled.png)
+
+- Background : `color.action.disabled`
+- Text : `color.text.disabled`
